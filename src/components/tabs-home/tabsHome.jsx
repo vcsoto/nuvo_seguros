@@ -11,6 +11,7 @@ export default function TabsHome() {
     const selectorRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
     const [isSmall, setIsSmall] = useState(false);
+    const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
         if (window.innerWidth <= 834) {
@@ -22,7 +23,7 @@ export default function TabsHome() {
         };
 
         window.addEventListener("resize", handleResize);
-
+        setIsMounted(true);
         // Limpieza
         return () => {
             window.removeEventListener("resize", handleResize);
@@ -71,7 +72,7 @@ export default function TabsHome() {
                         ))}
                         <span ref={selectorRef} className={s.selector} />
                     </div>
-                    {isSmall ? (
+                    {!isMounted ? null : isSmall ? (
                         <CardSmarts />
                     ) : (
                         <div className={s.tab_content}>
