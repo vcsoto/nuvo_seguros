@@ -10,11 +10,15 @@ export default function TabsHome() {
     const containerRef = useRef(null);
     const selectorRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
-    const [isSmall, setIsSmall] = useState(window.innerWidth < 834);
+    const [isSmall, setIsSmall] = useState(false);
 
     useEffect(() => {
+        if (window.innerWidth <= 834) {
+            setIsSmall(true);
+        }
+
         const handleResize = () => {
-            setIsSmall(window.innerWidth < 834);
+            setIsSmall(window.innerWidth <= 834);
         };
 
         window.addEventListener("resize", handleResize);
