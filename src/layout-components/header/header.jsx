@@ -77,7 +77,10 @@ export default function Header() {
                     <Link
                         href="/"
                         className="head-logo"
-                        onClick={handleClickOverlay}
+                        onClick={() => {
+                            isOpen(false);
+                            handleClickOverlay();
+                        }}
                     >
                         <img
                             src={
