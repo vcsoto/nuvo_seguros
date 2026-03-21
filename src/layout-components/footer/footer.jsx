@@ -69,7 +69,7 @@ export default function Footer() {
                     </a>
                     <span>
                         2026 Nuvoseguros por&nbsp;
-                        <a href="" className="supplier">
+                        <a href="#" className="supplier">
                             Victor Soto
                         </a>
                     </span>

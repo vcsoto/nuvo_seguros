@@ -10,7 +10,7 @@ export default function TabsHome() {
     const containerRef = useRef(null);
     const selectorRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
-    const [isSmall, setIsSmall] = useState(false);
+    const [isSmall, setIsSmall] = useState(window.innerWidth < 834);
 
     useEffect(() => {
         const handleResize = () => {
