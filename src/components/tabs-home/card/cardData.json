@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Seguro de<br/>Gastos Medicos",
+        "sub_title_1": "Alfa Medical",
+        "sub_title_2": "El mejor seguro de gastos médicos",
+        "description": "Asegura tu salud y la de tu familia, te ayuda a cubrir esos imprevistos médicos que tu familia necesite.",
+        "class": "gmm",
+        "image": "ggmm_medico.jpg",
+        "icon": "health_care.svg"
+    },
+    {
+        "title": "Plan de Retiro",
+        "sub_title_1": "Imagina Ser",
+        "sub_title_2": "Vive tu Retiro al maximo, comieza tu Ahorro",
+        "description": "Con tu plan de retiro no tendra preocupaciones en tu futuro económico.",
+        "class": "ppr",
+        "image": "ppr_pareja_mayor.jpg",
+        "icon": "plant_growup.svg"
+    },
+    {
+        "title": "Planes de Ahorro<br/>e inversión",
+        "sub_title_1": "Ahorro e inversiones",
+        "sub_title_2": "Protege tu patrimonio invierte seguro",
+        "description": "Conoce como invertir en uno de los instrumentos más seguros en México, obteniendo excelentes rendimientos.",
+        "class": "pa",
+        "image": "plan_ahorro_monedas.jpg",
+        "icon": "finan_dollar.svg"
+    },
+    {
+        "title": "Hombre Clave",
+        "sub_title_1": "Seguro empresarial",
+        "sub_title_2": "Protección financiera para empresas",
+        "description": "Protege las finanzas de tu empresa contra imprevistos de tu socios.",
+        "class": "hc",
+        "image": "hombre_clave_negocios.jpg",
+        "icon": "icon_agreement.svg"
+    },
+    {
+        "title": "SeguBeca",
+        "sub_title_1": "Ahorro Educativo",
+        "sub_title_2": "Asegura el futuro educativo de tus hijos",
+        "description": "Empieza un plan de ahorro y asegura la educación de tus hijos, incluso si tu llegaras a faltar, descubre como...",
+        "class": "sb",
+        "image": "estudiante_segubeca.jpg",
+        "icon": "book_shelf.svg"
+    }
+]

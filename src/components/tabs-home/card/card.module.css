@@ -1,0 +1,207 @@
+.widget {
+    width: 20%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+}
+
+.widget:hover {
+    flex-grow: 3;
+}
+
+.card {
+    flex-shrink: 0;
+    height: 100%;
+    transition: all 350ms ease-in-out;
+}
+
+.head {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.head h2 {
+    font-family: var(--font-poppins-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.image {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:global(.gmm) .head {
+    background-color: #118edb;
+}
+
+.card:global(.ppr) .head {
+    background-color: #731cad;
+}
+
+.card:global(.pa) .head {
+    background-color: #ad891c;
+}
+
+.card:global(.hc) .head {
+    background-color: #0f335e;
+}
+
+.card:global(.sb) .head {
+    background-color: #eb0e71;
+}
+
+.card_info {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card_info img {
+    width: 50px;
+    height: auto;
+}
+
+.card_info h2 {
+    font-family: var(--font-poppins-primary);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-secondary-darkblue);
+    margin-top: 1.2rem;
+}
+
+.card_info p.subtitle {
+    font-family: var(--font-didact-secondary);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-addons-carmesi);
+}
+
+.card_info p.description {
+    color: #47465a;
+    font-family: var(--font-poppins-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+}
+
+.link a {
+    font-family: var(--font-poppins-primary);
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #6950f8;
+}
+
+.link a:hover {
+    font-weight: 600;
+}
+
+.mask {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+/*---------------- OFFSET SMARTPHONES ------------*/
+
+.size_offset_small {
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+a.card-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-square {
+    display: block;
+    min-width: 170px;
+    aspect-ratio: 10 / 9.1;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.card-square h2 {
+    font-family: var(--font-poppins-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.card-square.sgmm {
+    background-image: url(/squeare-sgmm-medico.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.card-square.ppr {
+    background-image: url(/squeare-ppr-pareja-mayor.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.card-square.pai {
+    background-image: url(/squeare-plan-ahorro-monedas.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.card-square.hc {
+    background-image: url(/squeare-hombre-clave.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.card-square.sb {
+    background-image: url(/squeare-estudiante-segubeca.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+@media (max-width: 402px) {
+    .card-square {
+        min-width: 40%;
+        max-width: 40%;
+    }
+}

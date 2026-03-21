@@ -1,0 +1,302 @@
+/*----------- menu -----------*/
+
+.head-box {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+a.head-logo {
+    max-width: 163px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1001;
+}
+
+a.head-logo img {
+    width: 100%;
+    height: auto;
+}
+
+header button.bars {
+    display: none;
+    cursor: pointer;
+    border: none;
+}
+
+header button.bars i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+header .nav-top {
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menubox {
+    width: calc(100% - 163px - 2rem);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.menubox ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubox ul li {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.menubox ul li a,
+.menubox ul li button.link-button {
+    font-size: 0.9rem;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.menubox ul li button.link-button {
+    display: flex;
+    gap: 7px;
+}
+
+.menubox ul li button.link-button .icon {
+    transform: translateY(2px);
+}
+
+header.active .menubox ul li a,
+header.active .menubox ul li button.link-button {
+    color: #000;
+}
+
+header.active .menubox ul li button.link-button.active {
+    color: #0099ff;
+}
+
+.menubox ul li a:hover {
+    color: #0099ff;
+}
+
+.menubox ul.submenu {
+    width: 150%;
+    position: absolute;
+    overflow: hidden;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #f6f6f6;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 98;
+}
+
+.menubox ul.submenu li {
+    line-height: 36px;
+    text-align: left;
+    width: 100%;
+}
+
+.menubox ul.submenu li:hover {
+    background-color: #0099ff;
+}
+
+.menubox ul.submenu li:hover a {
+    color: #fff;
+}
+
+.menubox ul.submenu a {
+    color: #3a3939;
+    font-weight: 500;
+}
+
+header .nav-top .container {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .btns {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+header .btns a {
+    margin-right: 5px;
+}
+
+header .btns a:nth-child(2) {
+    margin-right: 0;
+}
+
+header .overlay_menubox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px); /* 🔥 blur */
+    background: rgba(0, 0, 0, 0.3); /* oscurecer */
+    z-index: 8;
+}
+
+header .overlay_submenu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 80px);
+    z-index: 9;
+    pointer-events: none;
+}
+
+header .overlay_submenu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #797979;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    z-index: -1;
+    pointer-events: none;
+}
+
+header .overlay_submenu.active {
+    pointer-events: auto;
+}
+
+header .overlay_submenu.active::before {
+    opacity: 0.75;
+    transition: opacity 0.6s ease-in-out;
+}
+
+header .overlay_submenu_child {
+    width: 100%;
+    height: 0;
+    background-color: var(--bg-color-body);
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
+    transition:
+        opacity 0.3s ease-in-out,
+        height 0.3s ease-in-out;
+    position: relative;
+    display: grid;
+}
+
+header .overlay_submenu_child > * {
+    grid-area: 1 / 1;
+}
+
+header .overlay_submenu_child.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+@media (max-width: 834px) {
+    a.head-logo {
+        max-width: 145px;
+    }
+
+    header button.bars {
+        display: block;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 8px;
+        right: 0;
+        z-index: 1003;
+    }
+
+    .menubox {
+        position: absolute;
+        top: 0;
+        right: -5vw;
+        width: 0;
+        overflow: hidden;
+        height: 100vh;
+        transition: all 500ms ease;
+        margin-right: 0;
+        z-index: 1002;
+        background-color: var(--color-primary);
+    }
+
+    .menubox.active {
+        width: 60%;
+    }
+
+    .menubox ul {
+        width: 100%;
+        height: auto;
+        background: var(--color-primary);
+        flex-direction: column;
+        margin-top: 80px;
+        justify-content: flex-start;
+    }
+
+    .menubox ul li {
+        text-align: left;
+        width: 100%;
+        display: block;
+        height: auto;
+        line-height: 36px;
+    }
+
+    .menubox ul.submenu {
+        position: relative;
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+        border-radius: 0;
+        background-color: var(--color-primary);
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border-top: none;
+        margin-top: 0px;
+        padding-left: 20px;
+        margin-bottom: 25px;
+    }
+
+    .menubox ul.submenu a {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    header .nav-top {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    header .nav-top {
+        display: none;
+    }
+}
