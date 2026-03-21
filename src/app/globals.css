@@ -114,7 +114,8 @@ header .cmedia.sections {
     align-items: center;
     transform: translateY(-10px);
     z-index: 10;
-    /*background-color: var(--color-primary);*/
+    background-color: var(--color-primary);
+    border-radius: 0 0 100px 100px;
     border-radius: 100px;
     transition: background-color var(--transition-in) var(--ease);
 }
