@@ -110,7 +110,10 @@ export default function Header() {
                             </button>
                             <ul className="submenu">
                                 <li>
-                                    <Link href="/gastos-medicos-mayores">
+                                    <Link
+                                        href="/gastos-medicos-mayores"
+                                        onClick={() => isOpen(false)}
+                                    >
                                         Seguro de Gastos Médicos
                                     </Link>
                                 </li>
