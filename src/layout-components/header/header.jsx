@@ -121,16 +121,36 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Plan de Retiro</Link>
+                                    <Link
+                                        href="/plan-de-retiro"
+                                        onClick={() => isOpen(false)}
+                                    >
+                                        Plan de Retiro
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Ahorro e inversión</Link>
+                                    <Link
+                                        href="/ahorro-e-inversion"
+                                        onClick={() => isOpen(false)}
+                                    >
+                                        Ahorro e inversión
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">Hombre Clave</Link>
+                                    <Link
+                                        href="/hombre-clave"
+                                        onClick={() => isOpen(false)}
+                                    >
+                                        Hombre Clave
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">SeguBeca</Link>
+                                    <Link
+                                        href="/segubeca"
+                                        onClick={() => isOpen(false)}
+                                    >
+                                        SeguBeca
+                                    </Link>
                                 </li>
                             </ul>
                         </li>

@@ -16,19 +16,21 @@ export default function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <a href="#">Plan de Retiro</a>
+                            <Link href="/plan-de-retiro">Plan de Retiro</Link>
                         </li>
                         <li>
-                            <a href="#">Plan de Ahorro</a>
+                            <Link href="/ahorro-e-inversion">Plan de Ahorro</Link>
                         </li>
                         <li>
-                            <a href="#">Planes de Inversion</a>
+                            <Link href="/ahorro-e-inversion">
+                                Planes de Inversión
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Hombre Clave</a>
+                            <Link href="/hombre-clave">Hombre Clave</Link>
                         </li>
                         <li>
-                            <a href="#">SeguBeca</a>
+                            <Link href="/segubeca">SeguBeca</Link>
                         </li>
                     </ul>
                 </div>

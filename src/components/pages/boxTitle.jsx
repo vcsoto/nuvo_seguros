@@ -1,7 +1,12 @@
 import s from "./pages.module.css";
 import Link from "next/link";
 
-export default function BoxTitle({ title, subtitle, slogan }) {
+export default function BoxTitle({
+    title,
+    subtitle,
+    slogan,
+    quoteHref = "/cotizar/gastos",
+}) {
     return (
         <div className={s.box_title}>
             <div>
@@ -10,7 +15,7 @@ export default function BoxTitle({ title, subtitle, slogan }) {
                 <p>{slogan}</p>
             </div>
             <Link
-                href="/cotizar/gastos"
+                href={quoteHref}
                 className={`btn-type-circle-red ${s.btn_type_circle_red}`}
             >
                 Cotizar

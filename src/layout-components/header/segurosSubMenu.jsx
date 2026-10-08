@@ -22,19 +22,18 @@ const SegurosSubMenu = forwardRef(({ active, handleClick }, ref) => {
                             <div className={s.box}>
                                 <div className={s.cont_title}>
                                     <span className={s.link_title}>
-                                        Seguro de gastos
-                                        <br /> médicos mayores
+                                        Seguro de Gastos Médicos Mayores
                                     </span>
                                     <span className={s.abrevation}>SGMM</span>
                                 </div>
                                 <p>
-                                    Alfa Medical, el mejor seguro de gastos
-                                    médicos
+                                    Alfa Medical — tu solución en Gastos Médicos
+                                    Mayores
                                 </p>
                             </div>
                         </Link>
                         <Link
-                            href="/seccion/gastos-medicos"
+                            href="/plan-de-retiro"
                             className={s.link}
                             onClick={handleClick}
                         >
@@ -46,17 +45,21 @@ const SegurosSubMenu = forwardRef(({ active, handleClick }, ref) => {
                             <div className={s.box}>
                                 <div className={s.cont_title}>
                                     <span className={s.link_title}>
-                                        Plan de Retiro
+                                        Plan Personal de Retiro
                                     </span>
                                     <span className={s.abrevation}>PPR</span>
                                 </div>
                                 <p>
-                                    Imagina Ser, vive tu Retiro al maximo,
-                                    comieza tu Ahorro
+                                    Imagina Ser — Vive tu retiro al máximo:
+                                    comienza tu ahorro.
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/" className={s.link} onClick={handleClick}>
+                        <Link
+                            href="/ahorro-e-inversion"
+                            className={s.link}
+                            onClick={handleClick}
+                        >
                             <img
                                 className={s.icon}
                                 src="/health_care.svg"
@@ -65,18 +68,21 @@ const SegurosSubMenu = forwardRef(({ active, handleClick }, ref) => {
                             <div className={s.box}>
                                 <div className={s.cont_title}>
                                     <span className={s.link_title}>
-                                        Seguro de gastos
-                                        <br /> médicos mayores
+                                        Plan de Ahorro e Inversión
                                     </span>
-                                    <span className={s.abrevation}>SGMM</span>
+                                    <span className={s.abrevation}>A&I</span>
                                 </div>
                                 <p>
-                                    Alfa Medical, el mejor seguro de gastos
-                                    médicos
+                                    Ahorro e inversiones — Protege tu patrimonio
+                                    e invierte con confianza.
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/" className={s.link} onClick={handleClick}>
+                        <Link
+                            href="/hombre-clave"
+                            className={s.link}
+                            onClick={handleClick}
+                        >
                             <img
                                 className={s.icon}
                                 src="/health_care.svg"
@@ -85,17 +91,21 @@ const SegurosSubMenu = forwardRef(({ active, handleClick }, ref) => {
                             <div className={s.box}>
                                 <div className={s.cont_title}>
                                     <span className={s.link_title}>
-                                        Plan de Retiro
+                                        Hombre Clave
                                     </span>
-                                    <span className={s.abrevation}>PPR</span>
+                                    <span className={s.abrevation}>HC</span>
                                 </div>
                                 <p>
-                                    Imagina Ser, vive tu Retiro al maximo,
-                                    comieza tu Ahorro
+                                    Seguro empresarial — Protección financiera
+                                    para tu empresa.
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/" className={s.link} onClick={handleClick}>
+                        <Link
+                            href="/segubeca"
+                            className={s.link}
+                            onClick={handleClick}
+                        >
                             <img
                                 className={s.icon}
                                 src="/health_care.svg"
@@ -104,13 +114,13 @@ const SegurosSubMenu = forwardRef(({ active, handleClick }, ref) => {
                             <div className={s.box}>
                                 <div className={s.cont_title}>
                                     <span className={s.link_title}>
-                                        Plan de Retiro
+                                        SeguBeca
                                     </span>
-                                    <span className={s.abrevation}>PPR</span>
+                                    <span className={s.abrevation}>SB</span>
                                 </div>
                                 <p>
-                                    Imagina Ser, vive tu Retiro al maximo,
-                                    comieza tu Ahorro
+                                    Ahorro Educativo — Asegura el futuro
+                                    educativo de tus hijos.
                                 </p>
                             </div>
                         </Link>
