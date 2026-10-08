@@ -159,10 +159,6 @@ export default function Header() {
                                 className={`link-button ${activeIndex === 1 && openSubMenu ? "active" : ""}`}
                                 key={1}
                                 ref={(el) => (tabsRef.current[1] = el)}
-                                onClick={() => {
-                                    if (window.innerWidth < 834) return;
-                                    handleClick(1);
-                                }}
                             >
                                 Blog
                                 {activeIndex === 1 && openSubMenu ? (

@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <section className="first_section">
             <div className={`cmedia ${s.flex}`}>
-                <Images image="ppr_pareja_mayor.jpg" />
+                <Images image="happy-family-silhouette-sunset.jpg" />
                 <div className={s.container}>
                     <BoxTitle
                         title="Plan Personal de Retiro"

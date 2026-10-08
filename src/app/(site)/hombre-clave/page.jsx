@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <section className="first_section">
             <div className={`cmedia ${s.flex}`}>
-                <Images image="hombre_clave_negocios.jpg" />
+                <Images image="primer-plano-ejecutivos-sentados-mesa.jpg" />
                 <div className={s.container}>
                     <BoxTitle
                         title="Hombre Clave"
@@ -27,10 +27,12 @@ export default function Page() {
                     <div className={s.box_list}>
                         <h3>¿Quién puede ser una persona clave?</h3>
                         <ul>
-                            <li>Propietarios, socios industriales o directivos.</li>
                             <li>
-                                Empleados que contribuyen de manera importante
-                                a la rentabilidad de la empresa.
+                                Propietarios, socios industriales o directivos.
+                            </li>
+                            <li>
+                                Empleados que contribuyen de manera importante a
+                                la rentabilidad de la empresa.
                             </li>
                             <li>
                                 Personas cuyo trabajo impacta directamente en
@@ -41,20 +43,28 @@ export default function Page() {
                     <div className={s.box_list}>
                         <h3>Riesgos ante la pérdida de una persona clave</h3>
                         <ul>
-                            <li>Baja de ventas y posible pérdida de clientes.</li>
+                            <li>
+                                Baja de ventas y posible pérdida de clientes.
+                            </li>
                             <li>
                                 Pérdida de experiencia para dirigir proyectos
                                 productivos.
                             </li>
                             <li>Posible disminución de líneas de crédito.</li>
-                            <li>En casos extremos, la disolución del negocio.</li>
+                            <li>
+                                En casos extremos, la disolución del negocio.
+                            </li>
                         </ul>
                     </div>
                     <div className={s.box_list}>
                         <h3>¿Cómo puede ayudar esta protección?</h3>
                         <ul>
-                            <li>Liquidación de pasivos bancarios y proveedores.</li>
-                            <li>Liquidación de personal y obligaciones fiscales.</li>
+                            <li>
+                                Liquidación de pasivos bancarios y proveedores.
+                            </li>
+                            <li>
+                                Liquidación de personal y obligaciones fiscales.
+                            </li>
                             <li>
                                 Contratación y entrenamiento de un ejecutivo
                                 sustituto.

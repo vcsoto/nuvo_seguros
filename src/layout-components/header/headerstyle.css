@@ -94,7 +94,8 @@ header.active .menubox ul li button.link-button.active {
     color: #0099ff;
 }
 
-.menubox ul li a:hover {
+.menubox ul li a:hover,
+.menubox ul li button.link-button:hover {
     color: #0099ff;
 }
 

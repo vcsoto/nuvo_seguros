@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <section className="first_section">
             <div className={`cmedia ${s.flex}`}>
-                <Images image="estudiante_segubeca.jpg" />
+                <Images image="image_segubeca.jpg" />
                 <div className={s.container}>
                     <BoxTitle
                         title="SeguBeca"
@@ -19,9 +19,8 @@ export default function Page() {
                         <p>
                             Es un plan de ahorro que ayuda a asegurar los
                             recursos para la educación universitaria de tus
-                            hijos. Además, protege el ahorro contra la
-                            inflación y contempla protección si llegaras a
-                            faltar.
+                            hijos. Además, protege el ahorro contra la inflación
+                            y contempla protección si llegaras a faltar.
                         </p>
                     </div>
                     <div className={s.box_text}>
@@ -36,9 +35,13 @@ export default function Page() {
                     <div className={s.box_list}>
                         <h3>Situaciones que pueden afectar el ahorro</h3>
                         <ul>
-                            <li>Fallecimiento o invalidez total y permanente.</li>
+                            <li>
+                                Fallecimiento o invalidez total y permanente.
+                            </li>
                             <li>Desempleo del proveedor de recursos.</li>
-                            <li>Inflación y aumento de los costos educativos.</li>
+                            <li>
+                                Inflación y aumento de los costos educativos.
+                            </li>
                             <li>
                                 Mala planeación o pérdida del valor de los
                                 ahorros frente a la inflación.
@@ -48,7 +51,10 @@ export default function Page() {
                     <div className={s.box_list}>
                         <h3>Con SeguBeca tendrás</h3>
                         <ul>
-                            <li>Suma asegurada por fallecimiento del padre o tutor.</li>
+                            <li>
+                                Suma asegurada por fallecimiento del padre o
+                                tutor.
+                            </li>
                             <li>
                                 Protección por invalidez total y permanente del
                                 proveedor de recursos.

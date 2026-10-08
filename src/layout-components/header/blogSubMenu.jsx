@@ -6,7 +6,7 @@ import s from "./subMenu.module.css";
 const BlogSubMenu = forwardRef(({ active }, ref) => {
     return (
         <div className={`${s.wrapper_submenu} ${active ? s.active : ""}`}>
-            <section></section>
+            <section>Blog</section>
         </div>
     );
 });
