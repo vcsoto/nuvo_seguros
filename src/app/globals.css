@@ -346,6 +346,10 @@ footer .column-1 img {
     height: auto;
 }
 
+footer .container-title {
+    display: flex;
+}
+
 footer span.title-menu {
     display: block;
     width: 80%;
