@@ -165,35 +165,35 @@ a.card-square {
 }
 
 .card-square.sgmm {
-    background-image: url(/squeare-sgmm-medico.jpg);
+    background-image: url(/squeare-sgmm-medico.webp);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .card-square.ppr {
-    background-image: url(/squeare-ppr-pareja-mayor.jpg);
+    background-image: url(/squeare-ppr-pareja-mayor.webp);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .card-square.pai {
-    background-image: url(/squeare-plan-ahorro-monedas.jpg);
+    background-image: url(/squeare-plan-ahorro-monedas.webp);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .card-square.hc {
-    background-image: url(/squeare-hombre-clave.jpg);
+    background-image: url(/squeare-hombre-clave.webp);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 .card-square.sb {
-    background-image: url(/squeare-estudiante-segubeca.jpg);
+    background-image: url(/squeare-estudiante-segubeca.webp);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;

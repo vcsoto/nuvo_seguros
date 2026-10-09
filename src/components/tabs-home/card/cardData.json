@@ -5,7 +5,7 @@
         "sub_title_2": "El mejor seguro de gastos médicos",
         "description": "Asegura tu salud y la de tu familia, te ayuda a cubrir esos imprevistos médicos que tu familia necesite.",
         "class": "gmm",
-        "image": "ggmm_medico.jpg",
+        "image": "ggmm_medico.webp",
         "icon": "health_care.svg"
     },
     {
@@ -14,7 +14,7 @@
         "sub_title_2": "Vive tu Retiro al maximo, comieza tu Ahorro",
         "description": "Con tu plan de retiro no tendra preocupaciones en tu futuro económico.",
         "class": "ppr",
-        "image": "ppr_pareja_mayor.jpg",
+        "image": "ppr_pareja_mayor.webp",
         "icon": "plant_growup.svg"
     },
     {
@@ -23,7 +23,7 @@
         "sub_title_2": "Protege tu patrimonio invierte seguro",
         "description": "Conoce como invertir en uno de los instrumentos más seguros en México, obteniendo excelentes rendimientos.",
         "class": "pa",
-        "image": "plan_ahorro_monedas.jpg",
+        "image": "plan_ahorro_monedas.webp",
         "icon": "finan_dollar.svg"
     },
     {
@@ -32,7 +32,7 @@
         "sub_title_2": "Protección financiera para empresas",
         "description": "Protege las finanzas de tu empresa contra imprevistos de tu socios.",
         "class": "hc",
-        "image": "hombre_clave_negocios.jpg",
+        "image": "hombre_clave_negocios.webp",
         "icon": "icon_agreement.svg"
     },
     {
@@ -41,7 +41,7 @@
         "sub_title_2": "Asegura el futuro educativo de tus hijos",
         "description": "Empieza un plan de ahorro y asegura la educación de tus hijos, incluso si tu llegaras a faltar, descubre como...",
         "class": "sb",
-        "image": "estudiante_segubeca.jpg",
+        "image": "estudiante_segubeca.webp",
         "icon": "book_shelf.svg"
     }
 ]

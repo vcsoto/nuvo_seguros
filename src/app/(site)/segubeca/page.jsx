@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <section className="first_section">
             <div className={`cmedia ${s.flex}`}>
-                <Images image="image_segubeca.jpg" />
+                <Images image="image_segubeca.webp" />
                 <div className={s.container}>
                     <BoxTitle
                         title="SeguBeca"

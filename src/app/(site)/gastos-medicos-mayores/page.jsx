@@ -7,7 +7,7 @@ export default function Page() {
         <>
             <section className="first_section">
                 <div className={`cmedia ${s.flex}`}>
-                    <Images image="sggm_page.jpg" />
+                    <Images image="sggm_page.webp" />
                     <div className={s.container}>
                         <BoxTitle
                             title="Seguro de Gastos Médicos Mayores"
