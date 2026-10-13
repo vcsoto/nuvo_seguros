@@ -12,7 +12,7 @@ export default function Page() {
                         title="Plan Personal de Retiro"
                         subtitle="Imagina Ser"
                         slogan="Vive tu retiro al máximo: comienza tu ahorro."
-                        quoteHref="/cotizar/retiro"
+                        quoteHref="/cotizar/plan-de-retiro"
                     />
                     <div className={s.box_text}>
                         <h3>¿Qué es un Plan Personal de Retiro?</h3>
@@ -62,7 +62,10 @@ export default function Page() {
                         <button className="btn-type-top-white-bg btn-padding-type-2">
                             Agendar asesoría
                         </button>
-                        <a href="/cotizar/retiro" className="btn-type-3-red">
+                        <a
+                            href="/cotizar/plan-de-retiro"
+                            className="btn-type-3-red"
+                        >
                             Cotizar Plan de Retiro
                         </a>
                     </div>

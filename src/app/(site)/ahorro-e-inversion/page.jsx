@@ -12,7 +12,7 @@ export default function Page() {
                         title="Plan de Ahorro e Inversión"
                         subtitle="Ahorro e inversiones"
                         slogan="Protege tu patrimonio e invierte con confianza."
-                        quoteHref="/cotizar/ahorro"
+                        quoteHref="/cotizar/ahorro-e-inversion"
                     />
                     <div className={s.box_text}>
                         <h3>Haz crecer tus ahorros</h3>
@@ -69,7 +69,10 @@ export default function Page() {
                         <button className="btn-type-top-white-bg btn-padding-type-2">
                             Agendar asesoría
                         </button>
-                        <a href="/cotizar/ahorro" className="btn-type-3-red">
+                        <a
+                            href="/cotizar/ahorro-e-inversion"
+                            className="btn-type-3-red"
+                        >
                             Cotizar Ahorro e Inversión
                         </a>
                     </div>

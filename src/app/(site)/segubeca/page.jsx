@@ -12,7 +12,7 @@ export default function Page() {
                         title="SeguBeca"
                         subtitle="Ahorro Educativo"
                         slogan="Asegura el futuro educativo de tus hijos."
-                        quoteHref="/cotizar/educacion"
+                        quoteHref="/cotizar/segubeca"
                     />
                     <div className={s.box_text}>
                         <h3>¿Qué es SeguBeca?</h3>
@@ -85,7 +85,7 @@ export default function Page() {
                         <button className="btn-type-top-white-bg btn-padding-type-2">
                             Agendar asesoría
                         </button>
-                        <a href="/cotizar/educacion" className="btn-type-3-red">
+                        <a href="/cotizar/segubeca" className="btn-type-3-red">
                             Cotizar SeguBeca
                         </a>
                     </div>

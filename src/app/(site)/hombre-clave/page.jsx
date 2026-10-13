@@ -12,7 +12,7 @@ export default function Page() {
                         title="Hombre Clave"
                         subtitle="Seguro empresarial"
                         slogan="Protección financiera para tu empresa."
-                        quoteHref="/cotizar/empresarial"
+                        quoteHref="/cotizar/hombre-clave"
                     />
                     <div className={s.box_text}>
                         <h3>¿Qué es el seguro de Hombre Clave?</h3>
@@ -88,7 +88,7 @@ export default function Page() {
                             Agendar asesoría
                         </button>
                         <a
-                            href="/cotizar/empresarial"
+                            href="/cotizar/hombre-clave"
                             className="btn-type-3-red"
                         >
                             Cotizar Hombre Clave

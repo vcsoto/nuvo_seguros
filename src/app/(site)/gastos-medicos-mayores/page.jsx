@@ -13,6 +13,7 @@ export default function Page() {
                             title="Seguro de Gastos Médicos Mayores"
                             subtitle="Alfa Medical"
                             slogan="¡tu solución en Gastos Médicos Mayores!"
+                            quoteHref="/cotizar/gastos-medicos-mayores"
                         />
                         <div className={s.box_text}>
                             <h3>
@@ -76,7 +77,10 @@ export default function Page() {
                             <button className="btn-type-top-white-bg btn-padding-type-2">
                                 Agendar asesoria
                             </button>
-                            <a href="" className="btn-type-3-red">
+                            <a
+                                href="/cotizar/gastos-medicos-mayores"
+                                className="btn-type-3-red"
+                            >
                                 Cotizar Seguro
                             </a>
                         </div>
